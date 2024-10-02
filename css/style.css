@@ -1,0 +1,123 @@
+﻿body { /*прописуємо властивості тегу body */
+	background-color: #0CEE00; 	/*фоновий колір*/
+	margin: 0px;				/*зовнішні відступи*/
+	padding: 0px;				/*внутрішні відступи*/
+}
+#header { /*прописуємо властивості тегу div, який має id -  header*/
+	height: 299px; /*высота*/
+	width: 800px; /*ширина*/
+	background-color: #03F; /*Фоновый цвет*/
+}
+#wrapper { /*прописуємо властивості тегу div, який має id -  wrapper*/
+	margin-right: auto; /*внешний отступ справа*/
+	margin-left: auto; /*внешний отступ слева*/
+	width: 800px; /*ширина*/
+}
+
+#content { /*свойства тега div с id -  content*/
+	background-color: #FFFFFF; /*Фоновый цвет*/
+	width: 800px; /*ширина*/
+}
+
+#coolmenu{
+	border: 0px solid #FF2833; /*Стиль рамки */
+	width: 206px; /*Ширина меню */
+	background-color: #ffffff;  /*Фоновый цвет ячейки*/
+	margin: 0px; /*Ширина внешних отступов*/
+	padding: 3px; /*Ширина внутренних отступов*/
+	float: left; /*делает элемент не блочным*/
+}
+#text {
+    border: 2px solid #ffffff; /*Стиль рамки */
+	padding: 5px; /*Ширина внутренних отступов*/
+	width: 576px; /*ширина текстовой области*/
+	background-color: #C39BFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 210px;
+}
+#coolmenu a{
+	font: bold 12px Verdana; /*Внутренний отсутп текста ссылки от краев ячейки*/
+	display: block;
+	width: 206px; /*Ширина ячейки*/
+	color: #000000;  /*Цвет текста*/
+	text-decoration: none; /*Подчеркивание у ссылок - нет*/
+	text-indent: 3px; /*абцацный отступ*/
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+}
+#preview1,  #preview5
+{
+ text-align: left;
+}
+ #preview2, #preview4
+{
+ text-align: center;
+}
+ #preview3
+{
+ text-align: right;
+}
+h3 {
+	margin: 0px;
+	background-color: #C39BFF;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	
+
+}
+p {
+	font-size: 16px;
+	text-indent: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: justify;
+}
+h2 {
+	margin: 0px;
+	padding-top: 20px;
+}
+#footer {
+	background-color: #8064FF;
+	height: 25px;
+	width: 800px;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	clear: both;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#coolmenu a:hover{
+background-color: #FF9C9A; /*Фоновый цвет ячейки при наведение курсора*/
+color: #1D1F74;  /*Цвет текста при наведении курсора*/
+}
+
+
+#coolmenu  ul li a{
+	width: 160px; /*Ширина ячейки*/
+	color: #FF0D00;  /*Цвет текста*/
+	}
+
+#header #content #text li {
+	margin-left: 20px;
+}
